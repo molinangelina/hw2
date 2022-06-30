@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot"); 
+    src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg");
+}
+body {
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.prompt {
+    font-size: 23px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+.login_container {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgrey;
+    padding: 20px;
+    border-radius: 3px;
+    border-width: thin;
+}
+.login_container > form > input {
+    height: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    outline: none;
+    width: 98%;
+    border: 1px solid lightgrey;
+    margin-top: -10px;
+
+}
+a:link {
+    text-decoration: none;
+    color: rgb(83, 161, 230);
+}
+.forgot_password {
+    display:inline;
+    float: right;
+    top: -100px;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: -40px;
+}
+.query {
+    display: flex;
+    flex-direction: row;
+    opacity: 0.28;
+    font-size: 11px;
+    margin-top: 20px;
+}
+.query:before, .query:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    opacity: 0.40;
+    margin: auto;
+}
+.query:before {
+    margin-right: 10px
+}
+.query:after {
+    margin-left: 10px
+}
+.login_container > form > input:focus {
+    border: 2px solid orange;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.sign_in_btn {
+    width: 98%;
+    height: 30px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 3px;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(243, 221, 147), rgb(236, 208, 148), rgb(232, 184, 80));
+    cursor: pointer;
+}
+.sign_in_btn:hover {
+    background-image: linear-gradient(rgb(225, 192, 119), rgb(232, 200, 131), rgb(232, 184, 80));
+}
+.rules {
+    font-size: 12px;
+    color: rgb(90, 90, 90);
+}
+.box {
+    cursor: pointer;
+}
+.check {
+    font-size: 14px;
+    color: rgb(18, 17, 17);
+}
+.register_btn {
+    width: 98%;
+    height: 30px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 3px;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(231, 231, 231), rgb(222, 222, 222));
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.register_btn:hover {
+    background-image: linear-gradient(rgb(226, 225, 225), rgb(204, 204, 204), rgb(204, 204, 204));
+}
